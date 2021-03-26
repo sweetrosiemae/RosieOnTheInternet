@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/ecdf0a9e26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Rosie On The Internet</title>
+</head>
+
+<body>
+    <!-- HEADING -->
+    <header>
+        <nav>
+            <div class="hamburgerIcon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav">
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="titleContainer neonSign">
+                <h1><span class="fastFlicker">R</span>osie on the <span class="flicker">i</span>nterne<span
+                        class="fastFlicker">t</span></h1>
+                <h2>
+                    < Front end web dev />
+                </h2>
+            </div>
+            <div class="iconContainer">
+                <i class="fas fa-angle-double-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section class="introSection" data-aos="zoom-in-up">
+        <div class="wrapper">
+            <div class="typeWriterContainer">
+                <h2 class="typing">Hello Internet, I'm Rosie!</h2>
+            </div>
+            <div class="rosieQuote" data-aos="zoom-in-up">
+                <img class="topQuote" src="assets/quotesTop.png" alt="top quote icon for intro">
+                <p>I'm a front end web developer who finds joy in creating websites that catch the eye. Coming from the
+                    world of dance, I love to add a little extra sparkle to whatever I do. Now, through coding, I hone
+                    in on my creative energy to produce unique and accessible websites.</p>
+                <img class="bottomQuote" src="assets/quotesBottom.png" alt="top quote icon for intro">
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skillsSection" data-aos="zoom-in-up">
+        <div class="wrapper">
+            <h2>Skills</h2>
+            <div class="skillsIcons" data-aos="zoom-in-up">
+                <ul class="skillsList">
+                    <li>
+                        <img src="./assets/htmlIcon.png" alt="html icon">
+                        <h3 class="gradientTitles">Html</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/cssIcon.png" alt="css icon">
+                        <h3 class="gradientTitles">Css</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/javascriptIcon.png" alt="javaScript icon">
+                        <h3 class="gradientTitles">JavaScript</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/reactIcon.png" alt="react icon">
+                        <h3 class="gradientTitles">React</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/firebaseIcon.png" alt="firebase icon">
+                        <h3 class="gradientTitles">Firebase</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/apiIcon.png" alt="API icon">
+                        <h3 class="gradientTitles">Rest Api</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/accessibleIcon.png" alt="accessibility icon">
+                        <h3 class="gradientTitles">Accessibility</h3>
+                    </li>
+                    <li>
+                        <img src="./assets/responsiveIcon.png" alt="multi screen icon">
+                        <h3 class="gradientTitles">Responsive</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPLETED WORK -->
+
+    <section class="completedWork" data-aos="zoom-in-up">
+        <div class="wrapper">
+            <h2>Projects</h2>
+            <ul class="projectsList">
+
+                <!-- DIARY APP -->
+                <li class="appInfo" data-aos="zoom-in-up">
+                    <div class="appPicContainer">
+                        <img class="diaryPic" src="./assets/dearDiaryMockUp.png"
+                            alt="a mockup of the dear diary react app">
+                    </div>
+                    <div class="appDetails">
+                        <h3>Dear Digital Diary</h3>
+                        <p>A React project that allows the user to log a diary entry, add a GIF from the GIPHY API, and
+                            store their entry in their Digital Diary (aka Firebase) to read again later. Really it's
+                            just the user telling me their secrets - Shhhhh! 🤫 </p>
+                        <p class="techUsed">React | Sass | Firebase | API | Responsive</p>
+                        <ul class="skillsList">
+                            <li class="gitHubIcon">
+                                <img src="./assets/githubIcon.png" alt="github icon">
+                                <a href="https://github.com/sweetrosiemae/dearDigitalDiary">GitHub</a>
+                            </li>
+                            <li class="webIcon">
+                                <img src="./assets/webIcon.png" alt="web icon">
+                                <a href="https://determined-heyrovsky-2ef6e6.netlify.app/">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- FLAVOUR TOWN APP -->
+                <li class="appInfo" data-aos="zoom-in-up">
+                    <div class="appPicContainer">
+                        <img class="flavourPic" src="./assets/flavourTownAppPreview.png"
+                            alt="preview of the ipad version of Flavour Town JavaScript App">
+                    </div>
+                    <div class="appDetails flavourDetails">
+                        <h3>Flavour Town</h3>
+                        <p>This one is for the cannabis enthusiasts - Flavour Town is a Vanilla Javascript App which
+                            calls the Api 'The Strain' once the user selects an ideal flavour profile for their
+                            cannabis. A group of randomized corresponding strains are then displayed and the user can
+                            click on a strain to learn more about it. Who knew cannabis was so fancy? 💅🏻</p>
+                        <p class="techUsed">HTML | CSS | JavaScript | API | Responsive</p>
+                        <ul class="skillsList">
+                            <li class="gitHubIcon">
+                                <img src="./assets/githubIcon.png" alt="github icon">
+                                <a href="https://github.com/pisces-crew/flavourTown">GitHub</a>
+                            </li>
+                            <li class="webIcon">
+                                <img src="./assets/webIcon.png" alt="web icon">
+                                <a href="https://pisces-crew.github.io/flavourTown/">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- SUNRUN APP -->
+                <li class="appInfo" data-aos="zoom-in-up">
+                    <div class="appPicContainer">
+                        <img class="sunRunPic" src="./assets/sunRunPreview.png" alt="a sun run app preview on mobile">
+                    </div>
+                    <div class="appDetails">
+                        <h3>Sun Run</h3>
+                        <p>Runners can plan their daily run with help from this React App. Find out what time the sun
+                            rises/sets in a variety of different timezones and plan your timed run accordingly. Don't
+                            run? 🙅🏼‍♀️ Me either - I just like to catch a nice sunset!</p>
+                        <p class="techUsed">React | Sass | API | Responsive</p>
+                        <ul class="skillsList">
+                            <li class="gitHubIcon">
+                                <img src="./assets/githubIcon.png" alt="github icon">
+                                <a href="https://github.com/array-of-sunshine-2021/array-of-sunshine-api">GitHub</a>
+                            </li>
+                            <li class="webIcon">
+                                <img src="./assets/webIcon.png" alt="web icon">
+                                <a href="https://xenodochial-albattani-2982da.netlify.app/">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <!-- KESTEEZE  -->
+    <!-- <section>
+        <div class="wrapper">
+            <h2>In the Works</h2>
+            <ul>
+
+                <li>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <h3></h3>
+                    <p></p>
+                    <p class="techUsed">React | Sass | Firebase | Responsive</p>
+                    <ul class="skillsList">
+                        <li class="gitHubIcon">
+                            <img src="./assets/githubIcon.png" alt="github icon">
+                            <a href="">GitHub</a>
+                        </li>
+                        <li class="webIcon">
+                            <img src="./assets/webIcon.png" alt="web icon">
+                            <a href="">Live</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <!-- CONTACT -->
+    <section class="formSection" data-aos="zoom-in-up">
+        <div class="wrapper">
+            <h2>Contact</h2>
+
+            <div class="letsHang" data-aos="zoom-in-up">
+                <div class="rosieContainer">
+                    <img src="./assets/testingPic.jpg" alt="rosie headshot">
+                </div>
+
+                <div class="contactMe">
+                    <p>Thanks for scrolling this far! If you'd like to get in contact about anything - websites, showgirl stuff, to talk about our pets, anything - feel free to reach out. You can check out my social links or send me an e-mail below.</p>
+                    <p class="signature">Rosie</p>
+
+                    <ul class="socialIcons">
+                        <li>
+                            <img href="https://www.linkedin.com/in/rosie-m-691bba204/" src="./assets/linkedinIcon.png"
+                                alt="linkedIn icon">
+                        </li>
+                        <li>
+                            <img href="https://twitter.com/RosieMOnTheNet" src="./assets/twitterIcon.png"
+                                alt="twitter icon">
+                        </li>
+                        <li>
+                            <img href="https://medium.com/@rosieontheinternet" src="./assets/mediumIcon.png"
+                                alt="medium blog icon">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="formContainer" data-aos="zoom-in-up">
+                <form class="contactForm" name="contactRosie" data-netlify="true">
+                    <fieldset>
+                        <div class="inputContainer">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" class="name">
+                            <label for="userEmail">Email:</label>
+                            <input type="email" name="userEmail" id="userEmail" class="userEmail">
+                            <label for="message">Message:</label>
+                            <textarea cols="20" rows="5" id="message" name="message" class="message"></textarea>
+                            <button type="submit">Let's Connect</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="cursor"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

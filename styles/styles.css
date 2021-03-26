@@ -639,8 +639,8 @@ header .fastFlicker {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .25rem;
-  -webkit-animation: typing 3.5s steps(60) normal both, blinker 0.75s steps(60) infinite normal;
-          animation: typing 3.5s steps(60) normal both, blinker 0.75s steps(60) infinite normal;
+  -webkit-animation: typing 8.5s steps(60) normal both, blinker 0.75s steps(60) infinite normal;
+          animation: typing 8.5s steps(60) normal both, blinker 0.75s steps(60) infinite normal;
 }
 
 @-webkit-keyframes typing {
@@ -1223,6 +1223,12 @@ form button:focus {
 }
 
 @media only screen and (max-width: 500px) {
+  .iconContainer {
+    padding-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .rosieQuote .bottomQuote {
     top: 30rem;
   }
@@ -1265,7 +1271,7 @@ form button:focus {
 
 @media only screen and (max-width: 460px) {
   header .titleContainer {
-    height: 60vh;
+    height: 70vh;
   }
 }
 

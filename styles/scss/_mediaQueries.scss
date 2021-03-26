@@ -169,11 +169,19 @@ header .titleContainer {
 
 
 //INBETWEEN SIZE 
+
+
 .rosieQuote {
     @media only screen and (max-width:610px) {
         .bottomQuote {
             top: 29rem;
         }
+    }
+}
+
+.iconContainer {
+    @media only screen and (max-width:500px) {
+        padding-top: 6rem;
     }
 }
 
@@ -226,7 +234,7 @@ header .titleContainer {
 
 header .titleContainer {
     @include phone {
-        height: 60vh;
+        height: 70vh;
     }
 }
 

@@ -280,3 +280,19 @@ header .titleContainer {
         margin-left: 10rem;
     }
 }
+
+//EVEN SMALLER
+
+.rosieQuote {
+    @media only screen and (max-width:380px) {
+        .bottomQuote {
+            top: 40rem;
+        }
+    }
+}
+
+.introSection .typeWriterContainer .typing {
+    @media only screen and (max-width:380px) {
+        letter-spacing: initial;
+    }
+}

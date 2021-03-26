@@ -1316,6 +1316,18 @@ form button:focus {
   }
 }
 
+@media only screen and (max-width: 380px) {
+  .rosieQuote .bottomQuote {
+    top: 40rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .introSection .typeWriterContainer .typing {
+    letter-spacing: initial;
+  }
+}
+
 html {
   font-size: 62.5%;
   background-color: #0c0d0e;

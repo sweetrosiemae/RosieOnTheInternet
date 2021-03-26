@@ -298,14 +298,14 @@ template {
 }
 
 header {
-  height: 110vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background: radial-gradient(circle, rgba(167, 71, 210, 0.2) 5%, rgba(167, 71, 210, 0.2) 25%, rgba(12, 13, 14, 0.9) 60%, #0c0d0e 64%), url(../../assets/headerBackground.webp);
 }
 
 header .titleContainer {
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -768,19 +768,19 @@ header .fastFlicker {
 .completedWork .appPicContainer .diaryPic {
   max-width: 100%;
   top: 180px;
-  left: 800px;
+  left: 170%;
 }
 
 .completedWork .appPicContainer .flavourPic {
   max-width: 100%;
   top: 300px;
-  left: -150px;
+  left: -20%;
 }
 
 .completedWork .appPicContainer .sunRunPic {
   max-width: 55%;
-  top: 150px;
-  left: 950px;
+  top: 170px;
+  left: 210%;
 }
 
 .completedWork .appPicContainer .diaryPic:hover,
@@ -1000,7 +1000,7 @@ header .fastFlicker {
   padding: 2rem;
   padding-top: 20rem;
   text-align: center;
-  width: 16rem;
+  width: 19rem;
   margin-bottom: 10rem;
 }
 
@@ -1056,6 +1056,258 @@ form button:focus {
   border: 2px solid #1b57cd;
   color: #1b57cd;
   text-shadow: 0 0 0.6rem #1b57cd, 0 0 0.5rem #1b57cd, -0.2rem 0.1rem 1rem #1b57cd, 0.2rem 0.1rem 1rem #1b57cd, 0 -0.5rem 2rem #1b57cd, 0 0.5rem 3rem #1b57cd;
+}
+
+@media only screen and (max-width: 1166px) {
+  .rosieQuote .bottomQuote {
+    position: absolute;
+    left: 92%;
+    top: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .completedWork .appPicContainer .diaryPic {
+    left: 161%;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .completedWork .appPicContainer .flavourPic {
+    left: -10%;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .completedWork .appPicContainer .sunRunPic {
+    left: 200%;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .diaryPic {
+    top: 210px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .flavourPic {
+    top: 325px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .sunRunPic {
+    top: 190px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  header .titleContainer {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .diaryPic {
+    top: 260px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .flavourPic {
+    top: 355px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .completedWork .appPicContainer .sunRunPic {
+    top: 210px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .letsHang {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .showHamMenu {
+    text-align: center;
+    margin-top: 3rem;
+    margin-right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #0c0d0e;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .rosieQuote .bottomQuote {
+    top: 24rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .appInfo {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .completedWork .appPicContainer {
+    width: 100%;
+    margin: 0 auto;
+    position: initial;
+    top: initial;
+    left: inital;
+    padding-bottom: 3rem;
+  }
+}
+
+.completedWork .appPicContainer img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .completedWork .appPicContainer .diaryPic {
+    top: initial;
+    left: inital;
+    position: initial;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .completedWork .appPicContainer .flavourPic {
+    top: initial;
+    left: inital;
+    position: initial;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .completedWork .appPicContainer .sunRunPic {
+    top: initial;
+    left: inital;
+    position: initial;
+    width: 40%;
+    margin-left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .appInfo .flavourDetails {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .appInfo .flavourDetails .skillsList {
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .rosieQuote .bottomQuote {
+    top: 29rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rosieQuote .bottomQuote {
+    top: 30rem;
+  }
+  .rosieQuote p {
+    margin: 1rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skillsSection ul li {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .completedWork h2 {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .appInfo p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .completedWork .appPicContainer .sunRunPic {
+    margin-left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .formSection h2 {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  header .titleContainer {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .typeWriterContainer {
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .introSection .typeWriterContainer {
+    margin-top: 3rem;
+    width: 30rem;
+  }
+  .introSection .typeWriterContainer h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .rosieQuote .bottomQuote {
+    top: 38rem;
+    left: 85%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .completedWork h2 {
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .appInfo .appDetails .skillsList {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .completedWork .appPicContainer .sunRunPic {
+    margin-left: 10rem;
+  }
 }
 
 html {
